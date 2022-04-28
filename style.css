@@ -1,16 +1,26 @@
 body {
+  
+}
+.footer-container {
     
 }
-
-.nav {
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.navbar {
     background-color: rgb(85, 96, 126);
+    color: white;
+}
+.navbar .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
-    
 }
-.nav ul, li, a {
+
+.navbar ul, li, a {
+    
     color: white;
     gap: 20px;
     display: flex;
@@ -18,13 +28,37 @@ body {
     list-style-type: none;
 
 }
-
+#placeholder{
+    display: flex;
+    width: 400px;
+    height: 120px;
+ 
+}
 .one {
     display: flex;
 
+    
     background-color: rgb(85, 96, 126);
     color: white;
-    justify-content: center;
+
+    padding: 30px;
+    
+}
+.one .container {
+
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+}
+.one .one-container {
+    max-width: 50%;
+    
+
+    
+    
+    
 }
 
 .one button {
@@ -32,4 +66,73 @@ body {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 5px 20px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+  
+}
+.two .box {
+
+}
+.boxes {
+    
+    display: flex;
+    gap: 20px;  
+
+}
+.boxes .box-text {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.box div{
+    
+    border-radius: 5px;
+    border: 4px solid;
+    width: 100px;
+    height: 100px;
+    color: blue;
+
+}
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 36px;
+    color: #1F2937;
+    font-family: "light italic";
+    background-color: #E5e7EB;
+}
+
+.three .container {
+  
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.four .action {
+    border: 2px solid;
+    color: blue;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85, 96, 126);
+    padding: 20px;
+    
 }
